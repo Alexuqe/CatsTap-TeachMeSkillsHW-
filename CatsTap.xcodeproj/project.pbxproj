@@ -6,30 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CEEAACE22D076145005F52E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAACD82D076145005F52E9 /* AppDelegate.swift */; };
+		CEEAACE32D076145005F52E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAACDF2D076145005F52E9 /* SceneDelegate.swift */; };
+		CEEAACE42D076145005F52E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAACE02D076145005F52E9 /* ViewController.swift */; };
+		CEEAACE52D076145005F52E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEAACD92D076145005F52E9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CEEAACC02D07613C005F52E9 /* CatsTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEAACD82D076145005F52E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEEAACD92D076145005F52E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEEAACDA2D076145005F52E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEAACDF2D076145005F52E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEEAACE02D076145005F52E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CEEAACD22D076140005F52E9 /* Exceptions for "CatsTap" folder in "CatsTap" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CEEAACBF2D07613C005F52E9 /* CatsTap */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CEEAACC22D07613C005F52E9 /* CatsTap */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CEEAACD22D076140005F52E9 /* Exceptions for "CatsTap" folder in "CatsTap" target */,
-			);
-			path = CatsTap;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEEAACBD2D07613C005F52E9 /* Frameworks */ = {
@@ -45,7 +36,7 @@
 		CEEAACB72D07613C005F52E9 = {
 			isa = PBXGroup;
 			children = (
-				CEEAACC22D07613C005F52E9 /* CatsTap */,
+				CEEAACE12D076145005F52E9 /* CatsTap */,
 				CEEAACC12D07613C005F52E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +47,18 @@
 				CEEAACC02D07613C005F52E9 /* CatsTap.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEAACE12D076145005F52E9 /* CatsTap */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAACD82D076145005F52E9 /* AppDelegate.swift */,
+				CEEAACD92D076145005F52E9 /* Assets.xcassets */,
+				CEEAACDA2D076145005F52E9 /* Info.plist */,
+				CEEAACDF2D076145005F52E9 /* SceneDelegate.swift */,
+				CEEAACE02D076145005F52E9 /* ViewController.swift */,
+			);
+			path = CatsTap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +75,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CEEAACC22D07613C005F52E9 /* CatsTap */,
 			);
 			name = CatsTap;
 			packageProductDependencies = (
@@ -122,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEAACE52D076145005F52E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEAACE22D076145005F52E9 /* AppDelegate.swift in Sources */,
+				CEEAACE32D076145005F52E9 /* SceneDelegate.swift in Sources */,
+				CEEAACE42D076145005F52E9 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +154,6 @@
 				INFOPLIST_FILE = CatsTap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -160,9 +163,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = halushko.CatsTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -178,7 +185,6 @@
 				INFOPLIST_FILE = CatsTap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -188,9 +194,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = halushko.CatsTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
